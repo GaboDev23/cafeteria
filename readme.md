@@ -199,18 +199,6 @@ No es necesario instalar dependencias ni ejecutar ningún servidor.
 
 Proyecto finalizado como práctica de HTML básico.
 
-## Posibles mejoras futuras
-
-Cuando se incorporen nuevos conocimientos, el proyecto podría ampliarse con:
-
-* CSS para mejorar el diseño visual
-* Diseño responsive
-* Barra de navegación
-* Tablas de precios
-* Validaciones de formularios
-* JavaScript para agregar interactividad
-* Backend para procesar los formularios
-
 ## Autor
 
 **Gabriel**
