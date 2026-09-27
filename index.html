@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Cafeteria Don Café | Inicio</title>
+    </head>
+    <body>
+        <section id="inicio">
+            <h1>Cafetería Don Café</h1>
+
+            <p>Bienvenido a la mejor cafetería de la ciudad. Disfruta de nuestro deliciosos cafés y postres.</p>
+
+            <img src="imagenes/don-cafe.png" alt="Cafetería Don Café">
+
+            <h2>Sobre nosotros</h2>
+            <p>En Cafetería Don Café nos apasiona ofrecer la mejor experiencia cafetera. Nuestro equipo se dedica a preparar cada bebida con cuidado y a seleccionar los ingredientes más frescos para nuestros postres.</p>
+
+            <p>Visítanos en nuestra ubicación para disfrutar de una experiencia cafetera única.</p>
+        </section>
+
+        <section id="redes-sociales">
+            <h2>Redes Sociales</h2>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://wa.me/1234567890" target="_blank">Whatsapp</a></li>
+            </ul>
+        </section>
+
+        <section id="menu">
+            <h2>Nuestro menú</h2>
+            <h3>Bebidas</h3>
+            <ul>
+                <li>Café Espresso</li>
+                <li>Café Latte</li>
+                <li>Café Americano</li>
+                <li>Café Mocha</li>
+                <li>Café Capuchino</li>
+                <li>Café Frappe</li>
+            </ul>
+            <img src="imagenes/cafe.png" alt="Café">
+
+            <h3>Comidas</h3>
+            <ul>
+                <li>Torta de chocolate</li>
+                <li>Torta de frutas</li>
+                <li>Torta de queso</li>
+                <li>Torta de vainilla</li>
+                <li>Torta de limón</li>
+            </ul>
+            <img src="imagenes/torta.png" alt="Torta">
+        </section>
+
+
+        <section id="horarios">
+            <h2>Horarios</h2>
+            <ul>
+                <li>Lunes a Viernes: 8:00 AM - 8:00 PM</li>
+                <li>Sábados: 9:00 AM - 6:00 PM</li>
+                <li>Domingos: Cerrado</li>
+            </ul>
+        </section>
+
+        <section id="ubicacion">
+            <h2>¿Dónde encontrarnos?</h2>
+            <p>Podrás encontrarnos en la calle Principal #123, en el centro de la ciudad.</p>
+            <a href="https://www.google.com/maps?q=Calle+Principal+%23123,+Centro+de+la+Ciudad" target="_blank">Ubicación aquí</a>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <h3>Formulario de contacto</h3>
+
+            <form>
+                <label for="nombre">Ingresa tu nombre: </label>
+                <input id="nombre" type="text">
+
+                <label for="apellido">Ingresa tu apellido: </label>
+                <input type="text" id="apellido">
+
+                <label for="email">Ingresa tu correo electrónico: </label>
+                <input id="email" type="email">
+
+                <label for="telefono">Ingresa tu número de teléfono: </label>
+                <input id="telefono" type="tel">
+            
+                <label for="mensaje">Ingresa tu mensaje: </label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="preferencias">
+            <h2>Preferencias</h2>
+            <p>Aquí puedes indicar tus preferencias de café y comida.</p>
+
+            <form action="">
+                <p>¿Cuál es tu bebida favorita? </p>
+                <input type="radio" name="bebida-favorita" id="cafe-espresso" value="espresso" >
+                <label for="cafe-espresso">Café Espresso</label>
+                <input type="radio" name="bebida-favorita" id="cafe-latte" value="latte">
+                <label for="cafe-latte">Café Latte</label>
+                <input type="radio" name="bebida-favorita" id="cafe-americano" value="americano">
+                <label for="cafe-americano">Café Americano</label>
+                <input type="radio" name="bebida-favorita" id="cafe-mocha" value="mocha">
+                <label for="cafe-mocha">Café Mocha</label>
+                <input type="radio" name="bebida-favorita" id="cafe-capuchino" value="capuchino">
+                <label for="cafe-capuchino">Café Capuchino</label>
+                <input type="radio" name="bebida-favorita" id="cafe-frappe" value="frappe">
+                <label for="cafe-frappe">Café Frappe</label>
+
+                <p>¿Qué productos te gustan? </p>
+                <input type="checkbox" name="productos-que-le-gustan" id="pasteles" value="pasteles">
+                <label for="pasteles">Pasteles</label>
+                <input type="checkbox" name="productos-que-le-gustan" id="galletas" value="galletas">
+                <label for="galletas">Galletas</label>
+                <input type="checkbox" name="productos-que-le-gustan" id="sandwiches" value="sandwiches">
+                <label for="sandwiches">Sandwiches</label>
+                <input type="checkbox" name="productos-que-le-gustan" id="ensaladas" value="ensaladas">
+                <label for="ensaladas">Ensaladas</label>
+
+                <label for="visitas">¿Cuántas veces nos has visitado?</label>
+                <input type="number" name="visitas" id="visitas" min="0">
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </body>
+</html>
